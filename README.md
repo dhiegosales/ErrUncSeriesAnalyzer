@@ -22,12 +22,6 @@ Header=>      Date;     Observated;    SIM1;      ...;    ...',
 
 Lines =>  01/01/2019;     value;       value;     ...;    ...',
 
-	      ...
-
-	      ...
-
-	      ...
-
 
      
 Note: It is not allowed NAN values in sthe series and all series (columns) must have the same dimensions
