@@ -16,6 +16,7 @@ Input table requeriments
 
 -the separator is ';'
 
+
 Example:
 
 Header=>      Date;     Observated;    SIM1;      ...;    ...',
@@ -30,6 +31,8 @@ An example .csv file is provided with programn exe.
 
 
 
+
+
 Reference
 
-Abbaspour, K. C. (2015). SWAT-CUP: SWAT calibration and uncertainty programs-a user manual. Eawag: Dübendorf, Switzerland, 16-70. Available in https://swat.tamu.edu/media/114860/usermanual_swatcup.pdf
+[1] Abbaspour, K. C. (2015). SWAT-CUP: SWAT calibration and uncertainty programs-a user manual. Eawag: Dübendorf, Switzerland, 16-70. Available in https://swat.tamu.edu/media/114860/usermanual_swatcup.pdf
