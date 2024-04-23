@@ -1,4 +1,4 @@
-# Error-and-Uncertainty-Series-Analyzer
+# Timeseries Error and Uncertainty Analyzer
 
 Features: 
 
