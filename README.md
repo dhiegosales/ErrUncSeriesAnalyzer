@@ -31,6 +31,7 @@ This software provides tools for importing, analyzing, and exporting error and u
 
 ---
 ## Error Equations
+
 ### Root Mean Squared Error (RMSE)
 \[ \text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2} \]
 
@@ -49,7 +50,7 @@ BIAS represents the bias or systematic tendency of predicted values relative to 
 ### Pearson Correlation Coefficient (r)
 \[ r = \frac{\sum_{i=1}^{n} (y_i - \bar{y})(\hat{y}_i - \bar{\hat{y}})}{\sqrt{\sum_{i=1}^{n} (y_i - \bar{y})^2 \sum_{i=1}^{n} (\hat{y}_i - \bar{\hat{y}})^2}} \]
 
-The Pearson correlation coefficient (r) measures the linear relationship between two variables, in this case, between observed values (y) and predicted values (𝑦^y^ ). The value of r ranges from -1 to 1, where 1 indicates a perfect positive correlation, -1 indicates a perfect negative correlation, and 0 indicates no linear correlation.
+The Pearson correlation coefficient (r) measures the linear relationship between two variables, in this case, between observed values (y) and predicted values (\(\hat{y}\)). The value of r ranges from -1 to 1, where 1 indicates a perfect positive correlation, -1 indicates a perfect negative correlation, and 0 indicates no linear correlation.
 
 ### Coefficient of Determination (r²)
 \[ r^2 = \left( \frac{\sum_{i=1}^{n} (y_i - \bar{y})(\hat{y}_i - \bar{\hat{y}})}{\sqrt{\sum_{i=1}^{n} (y_i - \bar{y})^2 \sum_{i=1}^{n} (\hat{y}_i - \bar{\hat{y}})^2}} \right)^2 \]
@@ -64,7 +65,9 @@ NSE is an efficiency measure that compares the variability of the simulation (pr
 These equations are used to evaluate the performance and uncertainty of simulation models within the software.
 
 [Back to top](#table-of-contents)
+
 ---
+
 ## Requirements
 
 - Operating System: Windows 10/11 64-bit
