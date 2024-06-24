@@ -33,21 +33,32 @@ This software provides tools for importing, analyzing, and exporting error and u
 ## Error Equations
 ### Root Mean Squared Error (RMSE)
 \[ \text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2} \]
+
 RMSE is a measure of the differences between values predicted by a model and the values observed. It penalizes larger errors more significantly due to the square root term.
+
 ### Mean Absolute Error (MAE)
 \[ \text{MAE} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i| \]
+
 MAE is a measure of the average absolute errors between predicted values and observed values. It is less sensitive to outliers compared to RMSE.
+
 ### Bias (BIAS)
 \[ \text{BIAS} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i) \]
+
 BIAS represents the bias or systematic tendency of predicted values relative to observed values. A positive value indicates that predictions are generally overestimated.
+
 ### Pearson Correlation Coefficient (r)
 \[ r = \frac{\sum_{i=1}^{n} (y_i - \bar{y})(\hat{y}_i - \bar{\hat{y}})}{\sqrt{\sum_{i=1}^{n} (y_i - \bar{y})^2 \sum_{i=1}^{n} (\hat{y}_i - \bar{\hat{y}})^2}} \]
+
 The Pearson correlation coefficient (r) measures the linear relationship between two variables, in this case, between observed values (y) and predicted values (𝑦^y^ ). The value of r ranges from -1 to 1, where 1 indicates a perfect positive correlation, -1 indicates a perfect negative correlation, and 0 indicates no linear correlation.
+
 ### Coefficient of Determination (r²)
 \[ r^2 = \left( \frac{\sum_{i=1}^{n} (y_i - \bar{y})(\hat{y}_i - \bar{\hat{y}})}{\sqrt{\sum_{i=1}^{n} (y_i - \bar{y})^2 \sum_{i=1}^{n} (\hat{y}_i - \bar{\hat{y}})^2}} \right)^2 \]
+
 The coefficient of determination (r²) is a measure of the proportion of the total variance in observed values that is explained by the model. A value of r² close to 1 indicates that the model explains the variation in the observed data well.
+
 ### Nash-Sutcliffe Efficiency (NSE)
 \[ \text{NSE} = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2} \]
+
 NSE is an efficiency measure that compares the variability of the simulation (predicted values) with the variability of the observed data. A NSE value greater than zero indicates that the simulation performs better than the mean of the observed data.
 
 These equations are used to evaluate the performance and uncertainty of simulation models within the software.
