@@ -11,11 +11,11 @@ This software provides tools for importing, analyzing, and exporting error and u
 - [Usage](#usage)
 - [Graphical User Interface](#graphical-user-interface)
 - [Example](#example)
-- [Input Table Requirements](#input-table-requirements)
-- [Notes](#notes)
+- [Input Table Requirements](#input-table-requirements-citation)
 - [Authors](#authors)
 - [License](#license)
-
+- [Citation](#citation)
+- 
 ---
 
 ## Features
@@ -54,6 +54,8 @@ Use the executable available on GitHub to open the graphical user interface.
 ### Main Window
 
 The main window consists of several sections:
+
+![Main Window](https://github.com/dhiegosales/Timeseries-Error-and-Uncertainty-Analyzer/blob/main/GUI.png)
 
 - Import Section
 - Error Calculation Section
@@ -118,32 +120,18 @@ To import a CSV file, calculate errors using RMSE, calculate uncertainties, and 
 
 ## Input Table Requirements
 
-- CSV file with simulations data. 
+- CSV file with data from simulations.
 
 ### Example CSV File Structure (example_csv_file.csv):
-| Date       | Observed | SIM1  | SIM2  | SIM3        | SIM4        | SIM5  | SIM6        | SIM7        | ...        |
-|------------|----------|-------|-------|-------------|-------------|-------|-------------|-------------|------------|
-| 01/01/2008 | 6.5699   | 9.14  | 11.18 | 11.51873672 | 12.33203402 | 13.32 | 12.87425878 | 13.22578492 | ...        |
-| 02/01/2008 | 6.5699   | 8.85  | 10.72 | 10.90419215 | 11.62284684 | 12.58 | 11.99037908 | 12.37486219 | ...        |
-| 03/01/2008 | 6.098    | 8.06  | 9.9   | 10.04710097 | 10.7403933  | 11.71 | 11.10841073 | 11.50045562 | ...        |
-| 04/01/2008 | 5.7909   | 7.59  | 9.37  | 9.495616076 | 10.12828598 | 11.11 | 10.44220738 | 10.83883922 | ...        |
-| 05/01/2008 | 5.7909   | 12.54 | 13.72 | 16.28932582 | 15.5283375  | 12.86 | 13.72133141 | 11.90436727 | ...        |
-| 06/01/2008 | 11.185   | 17.09 | 17    | 17.69950231 | 16.73132768 | 14.33 | 14.7862309  | 13.1575171  | ...        |
-| 07/01/2008 | 11.3804  | 13.06 | 13.24 | 12.8217692  | 12.8425763  | 12.66 | 12.23776574 | 11.85497255 | ...        |
-| 08/01/2008 | 7.7213   | 13.09 | 13.48 | 13.83316418 | 13.57105305 | 12.6  | 12.43770012 | 11.70279927 | ...        |
-| 09/01/2008 | 8.063    | 13.24 | 13.23 | 12.84975747 | 12.69980697 | 12.36 | 11.82078484 | 11.51162844 | ...        |
-| 10/01/2008 | 6.5699   | 13.26 | 13.4  | 13.88394896 | 13.51561512 | 12.4  | 12.1979165  | 11.42525459 | ...        |
-| 11/01/2008 | 10.0395  | 22.09 | 20.51 | 21.41428653 | 19.45589964 | 15.92 | 16.12705842 | 14.41034013 | ...        |
-| 12/01/2008 | 15.3283  | 27.34 | 23.96 | 23.62159905 | 21.57383117 | 18.32 | 18.2712125  | 17.01282931 | ...        |
-| 13/01/2008 | 10.2272  | 20.07 | 17.66 | 16.08664606 | 15.72260422 | 15.62 | 15.10553576 | 15.09769122 | ...        |
-| 14/01/2008 | 8.9412   | 11.93 | 11.72 | 10.57369936 | 11.10646109 | 12.4  | 11.4547722  | 12.01793019 | ...        |
-| 15/01/2008 | 7.5525   | 10.32 | 10.81 | 10.36533268 | 10.76591244 | 11.56 | 10.70756545 | 11.1048298  | ...        |
-| 16/01/2008 | 7.7213   | 9.58  | 10.36 | 9.97610834  | 10.26544921 | 10.98 | 10.1161662  | 10.47987823 | ...        |
-| 17/01/2008 | 6.4111   | 12.71 | 13.13 | 14.16410799 | 13.59933922 | 12.03 | 12.06931939 | 11.3550626  | ...        |
-| ... | ...   | ... | ... | ... | ... | ... | ... | ...  | ...        |
 
+| Date       | Observed | SIM1    | SIM2    | SIM3    | SIM4    | SIM5  | SIM6    | ...     |
+|------------|----------|---------|---------|---------|---------|-------|---------|---------|
+| 01/01/2008 | 6.5699   | 9.14    | 11.18   | 11.5187 | 12.3320 | 13.32 | 12.8742 | ...     |
+| 02/01/2008 | 6.5699   | 8.85    | 10.72   | 10.9041 | 11.6228 | 12.58 | 11.9903 | ...     |
+| 03/01/2008 | 6.098    | 8.06    | 9.9     | 10.0471 | 10.7403 | 11.71 | 11.1084 | ...     |
+| ...        | ...      | ...     | ...     | ...     | ...     | ...   | ...     | ...     |
 
-# Notes
+#### Notes
 
 - Ensure the CSV file follows the correct format: The first column should be the date, the second column the observed data, and subsequent columns the simulation data. The CSV file should not contain NaN values, and all series must have the same dimensions.
 - The separator used should be ';'.
@@ -153,18 +141,23 @@ To import a CSV file, calculate errors using RMSE, calculate uncertainties, and 
 
 [Back to top](#table-of-contents)
 
+---
+
 ## Authors
 
-Dhiego da Silva Sales  
-Email: dhiego.sales@outlook.com
+Written by: Dhiego da Silva Sales  
+Contact: dhiego.sales@outlook.com
+
+---
+
+## Citation:  
+Sales, D. S.; Lugon Junior, J.; Costa, D. A.; Silva Neto, A. J. (2024). *Timeseries Error and Uncertainty Analyzer (Version 1.0.0)* [Computer software]. Available at: https://github.com/dhiegosales/Error-and-Uncertainty-Series-Analyzer. Accessed xx xxx xxxx.
 
 [Back to top](#table-of-contents)
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License, making it open access. You are free to use, modify, and distribute the software under the terms of the MIT License
 
 [Back to top](#table-of-contents)
-
-This updated README now includes the formatted CSV table within the "Input Table Requirements" section and integrates the additional information seamlessly. Adjust any styling or formatting according to your documentation standards.
 
