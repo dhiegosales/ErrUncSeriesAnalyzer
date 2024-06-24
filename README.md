@@ -33,7 +33,7 @@ This software provides tools for importing, analyzing, and exporting error and u
 ## Error Equations
 
 ### Root Mean Squared Error (RMSE)
-\[ \text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2} \]
+[RMSE Equation](https://latex.codecogs.com/png.latex?\dpi{300}&space;\text{RMSE}&space;=&space;\sqrt{\frac{1}{n}&space;\sum_{i=1}^{n}&space;(y_i&space;-&space;\hat{y}_i)^2})
 
 RMSE is a measure of the differences between values predicted by a model and the values observed. It penalizes larger errors more significantly due to the square root term.
 
