@@ -118,7 +118,7 @@ To import a CSV file, calculate errors using RMSE, calculate uncertainties, and 
 
 ## Input Table Requirements
 
--CSV file with simulations data. 
+- CSV file with simulations data. 
 
 ### Example CSV File Structure (example_csv_file.csv):
 | Date       | Observed | SIM1  | SIM2  | SIM3        | SIM4        | SIM5  | SIM6        | SIM7        | ...        |
@@ -145,9 +145,9 @@ To import a CSV file, calculate errors using RMSE, calculate uncertainties, and 
 
 # Notes
 
--Ensure the CSV file follows the correct format: The first column should be the date, the second column the observed data, and subsequent columns the simulation data. The CSV file should not contain NaN values, and all series must have the same dimensions.
--The separator used should be ';'.
--An example.csv (example_csv_file.csv) file is provided with programn exe.
+- Ensure the CSV file follows the correct format: The first column should be the date, the second column the observed data, and subsequent columns the simulation data. The CSV file should not contain NaN values, and all series must have the same dimensions.
+- The separator used should be ';'.
+- An example.csv (example_csv_file.csv) file is provided with programn exe.
 
 **Note:** It is not allowed NaN values in the series and all series (columns) must have the same dimensions.
 
