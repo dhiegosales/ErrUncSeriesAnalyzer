@@ -15,7 +15,7 @@ This software provides tools for importing, analyzing, and exporting error and u
 - [Authors](#authors)
 - [License](#license)
 - [Citation](#citation)
-- 
+
 ---
 
 ## Features
