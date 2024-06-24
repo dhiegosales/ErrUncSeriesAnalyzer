@@ -54,13 +54,11 @@ Use the executable available on GitHub to open the graphical user interface.
 ### Main Window
 
 The main window consists of several sections:
-
-![Main Window](https://github.com/dhiegosales/Timeseries-Error-and-Uncertainty-Analyzer/blob/main/GUI.png)
-
 - Import Section
 - Error Calculation Section
 - Uncertainty Calculation Section
 - Export Section
+![Main Window](https://github.com/dhiegosales/Timeseries-Error-and-Uncertainty-Analyzer/blob/main/GUI.png)
 
 #### Import Section
 
