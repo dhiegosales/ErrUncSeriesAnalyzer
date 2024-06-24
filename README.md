@@ -145,12 +145,11 @@ To import a CSV file, calculate errors using RMSE, calculate uncertainties, and 
 
 # Notes
 
-**Ensure the CSV file follows the correct format: The first column should be the date, the second column the observed data, and subsequent columns the simulation data. The CSV file should not contain NaN values, and all series must have the same dimensions.
-**The separator used should be ';'.
+*Ensure the CSV file follows the correct format: The first column should be the date, the second column the observed data, and subsequent columns the simulation data. The CSV file should not contain NaN values, and all series must have the same dimensions.
+*The separator used should be ';'.
+*An example.csv (example_csv_file.csv) file is provided with programn exe.
 
 **Note:** It is not allowed NaN values in the series and all series (columns) must have the same dimensions.
-
-**An example .csv file is provided with programn exe.
 
 [Back to top](#table-of-contents)
 
