@@ -1,4 +1,4 @@
-# Error and Uncertainty Series Analyzer
+# ErrUncSeriesAnalyzer: Error and Uncertainty Series Analyzer
 
 This software provides tools for importing, analyzing, and exporting error and uncertainty data from simulation series in CSV format. It supports calculating various objective functions (such as RMSE, MAE, BIAS, r, r², and NSE) and generating uncertainty measures using the 95PPU, R-Factor, and P-Factor theory [1]. The results can be exported to an Excel report (.xlsx), including plots.
 
