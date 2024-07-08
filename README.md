@@ -194,7 +194,7 @@ Contact: dhiego.sales@outlook.com
 ---
 
 ## Citation:  
-Sales, D. S.; Lugon Junior, J.; Costa, D. A.; Silva Neto, A. J. (2024). *Timeseries Error and Uncertainty Analyzer (Version 1.0.0)* [Computer software]. Available at: https://github.com/dhiegosales/Error-and-Uncertainty-Series-Analyzer. Accessed xx xxx xxxx.
+Sales, D. S.; Lugon Junior, J.; Costa, D. A.; Silva Neto, A. J. (2024). *Timeseries Error and Uncertainty Analyzer (Version 1.0.0)* [Computer software]. Available at: https://github.com/dhiegosales/ErrUncSeriesAnalyzer. Accessed xx xxx xxxx.
 
 [Back to top](#table-of-contents)
 
