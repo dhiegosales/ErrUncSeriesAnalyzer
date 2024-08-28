@@ -1,6 +1,6 @@
 # ErrUncSeriesAnalyzer: Error and Uncertainty Series Analyzer
 
-This software provides tools for importing, analyzing, and exporting error and uncertainty data from simulation series in CSV format. It supports calculating various objective functions (such as RMSE, MAE, BIAS, r, r², and NSE) and generating uncertainty measures using the 95PPU, R-Factor, and P-Factor theory [1]. The results can be exported to an Excel report (.xlsx), including plots.
+This software provides tools for importing, analyzing, and exporting error and uncertainty data from simulation series in CSV format. It supports calculating various objective functions (such as RMSE, MAE, BIAS, PBIAS, r, r², and NSE) and generating uncertainty measures using the 95PPU, R-Factor, and P-Factor theory [1]. The results can be exported to an Excel report (.xlsx), including plots.
 
 ---
 
@@ -21,7 +21,7 @@ This software provides tools for importing, analyzing, and exporting error and u
 
 ## Features
 
-- Performance Calculation: Supports RMSE, MAE, BIAS, r, r², and NSE as objective functions.
+- Performance Calculation: Supports RMSE, MAE, BIAS, PBIAS, r, r², and NSE as objective functions.
 - Uncertainty Calculation: Uses 95PPU, R-Factor, and P-Factor theory [1].
 - Data Import: Imports simulation data from a CSV file.
 - Data Export: Exports results to an Excel report (.xlsx).
@@ -50,6 +50,12 @@ MAE is a measure of the average absolute errors between predicted values and obs
 
 BIAS represents the bias or systematic tendency of predicted values relative to observed values. A positive value indicates that predictions are generally overestimated.
 
+### Percent Bias (PBIAS)
+
+<img src="https://latex.codecogs.com/png.latex?\dpi{300}&space;\text{PBIAS}&space;=&space;\frac{\sum_{i=1}^{n}&space;(y_i&space;-&space;\hat{y}_i)}{\sum_{i=1}^{n}&space;(y_i&space;-&space;\bar{y})}&space;\times&space;100">
+
+PBIAS measures the average tendency of the model to overestimate or underestimate the observed data. A positive value indicates a tendency to underestimate the data, while a negative value indicates a tendency to overestimate.
+
 ### Pearson Correlation Coefficient (r)
 
 <img src="https://latex.codecogs.com/png.latex?\dpi{300}&space;r&space;=&space;\frac{\sum_{i=1}^{n}&space;(y_i&space;-&space;\bar{y})(\hat{y}_i&space;-&space;\bar{\hat{y}})}{\sqrt{\sum_{i=1}^{n}&space;(y_i&space;-&space;\bar{y})^2&space;\sum_{i=1}^{n}&space;(\hat{y}_i&space;-&space;\bar{\hat{y}})^2}}">
@@ -71,7 +77,6 @@ NSE is an efficiency measure that compares the variability of the simulation (pr
 These equations are used to evaluate the performance and uncertainty of simulation models within the software.
 
 [Back to top](#table-of-contents)
-
 
 ---
 
@@ -103,7 +108,8 @@ The main window consists of several sections:
 - Error Calculation Section
 - Uncertainty Calculation Section
 - Export Section
-![Main Window](https://github.com/dhiegosales/Timeseries-Error-and-Uncertainty-Analyzer/blob/main/GUI.png)
+![Main Window](https://github.com/dhiegosales/ErrUncSeriesAnalyzer/blob/main/GUI_v2.0.0.png?raw=true)
+
 
 #### Import Section
 
