@@ -122,7 +122,7 @@ The main window consists of several sections:
 
 #### Error Calculation Section
 
-- Objective Function Selection: Radio buttons to select the desired objective function (BIAS, RMSE, MAE, r, r², NSE).
+- Objective Function Selection: Radio buttons to select the desired objective function (BIAS,  PBIAS, RMSE, MAE, r, r², NSE).
 - Calc Error Button: Calculates errors based on the selected objective function.
 - Error Table Button: Displays a table of calculated errors.
 - Best Simulation Button: Displays the best simulation based on the selected objective function.
@@ -200,7 +200,7 @@ Contact: dhiego.sales@outlook.com
 ---
 
 ## Citation:  
-Sales, D. S.; Lugon Junior, J.; Costa, D. A.; Silva Neto, A. J. (2024). *Timeseries Error and Uncertainty Analyzer (Version 1.0.0)* [Computer software]. Available at: https://github.com/dhiegosales/ErrUncSeriesAnalyzer. Accessed xx xxx xxxx.
+Sales, D. S.; Lugon Junior, J.; Costa, D. A.; Silva Neto, A. J. (2024). *Timeseries Error and Uncertainty Analyzer (Version 2.0.0)* [Computer software]. Available at: https://github.com/dhiegosales/ErrUncSeriesAnalyzer. Accessed xx xxx xxxx.
 
 [Back to top](#table-of-contents)
 
