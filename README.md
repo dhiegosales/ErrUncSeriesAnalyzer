@@ -93,7 +93,7 @@ These equations are used to evaluate the performance and uncertainty of simulati
 
 ### Run the Application
 
-Use the executable available on GitHub [Here](https://github.com/dhiegosales/Timeseries-Error-and-Uncertainty-Analyzer/releases/download/v.1.0.0/error_and_uncertainty_series_analyzer_v.1.0.0.zip) to open the graphical user interface.
+Use the executable available on GitHub [Here](https://github.com/dhiegosales/ErrUncSeriesAnalyzer/releases/download/v.2.0.0/ErrUncSeriesAnalyzer_v.2.0.0.zip) to open the graphical user interface.
 
 [Back to top](#table-of-contents)
 
