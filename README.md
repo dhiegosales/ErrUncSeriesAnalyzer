@@ -1,4 +1,4 @@
-# ErrUncSeriesAnalyzer: Error and Uncertainty Series Analyzer
+# ErrUncSeriesAnalyzer: Error and Uncertainty Analysis Tool
 
 This software provides tools for importing, analyzing, and exporting error and uncertainty data from simulation series in CSV format. It supports calculating various objective functions (such as RMSE, MAE, BIAS, PBIAS, r, r², and NSE) and generating uncertainty measures using the 95PPU, R-Factor, and P-Factor theory [1]. The results can be exported to an Excel report (.xlsx), including plots.
 
@@ -200,7 +200,7 @@ Contact: dhiego.sales@outlook.com
 ---
 
 ## Citation:  
-Sales, D. S.; Lugon Junior, J.; Costa, D. A.; Silva Neto, A. J. (2024). *Timeseries Error and Uncertainty Analyzer (Version 2.0.0)* [Computer software]. Available at: https://github.com/dhiegosales/ErrUncSeriesAnalyzer. Accessed xx xxx xxxx.
+Sales, D. S.; Lugon Junior, J.; Costa, D. A.; Silva Neto, A. J. (2024). *ErrUncSeriesAnalyzer: Error and Uncertainty Analysis Tool (Version 2.0.0)* [Computer software]. Available at: https://github.com/dhiegosales/ErrUncSeriesAnalyzer. Accessed xx xxx xxxx.
 
 [Back to top](#table-of-contents)
 
